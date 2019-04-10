@@ -1,0 +1,4 @@
+all: 
+	
+      g++ -c AVLTree.cpp main.cpp analysis.cpp PbBSTNode.cpp PbBST.cpp AVLTreeNode.cpp
+      g++ AVLTree.cpp main.cpp analysis.cpp PbBSTNode.cpp PbBST.cpp AVLTreeNode.cpp -o q2	
